@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Input from './Input';
 
-it('renders without crashing', () => {
+it('renders an input element', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<Input />, div);
   ReactDOM.unmountComponentAtNode(div);
 
-  // test
 });
