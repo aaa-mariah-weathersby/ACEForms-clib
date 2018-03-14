@@ -8,3 +8,8 @@ it('renders an input element', () => {
   ReactDOM.unmountComponentAtNode(div);
 
 });
+
+it('stores the current values onChange', () => {
+  let field = ReactDOM.render(<Input />, div);
+
+})
